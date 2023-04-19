@@ -1,0 +1,74 @@
+.inputBox {
+  position: relative;
+  margin-left: 20px;
+  gap: 1rem;
+}
+.section {
+  width: 100%;
+}
+.number {
+  color: lightgray;
+  width: 20px;
+  display: inline-block;
+}
+.input {
+  border: none;
+  width: 75px;
+}
+
+.buttonsContainer {
+  /* display: none; */
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.pngButton {
+  width: 18px;
+  height: 18px;
+}
+.button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+}
+.section:hover .buttonsContainer {
+  display: flex;
+  align-items: center;
+}
+.required {
+  display: flex;
+  align-items: center;
+}
+.requiredText {
+  caret-color: transparent;
+}
+.requiredButton {
+  display: none;
+  cursor: pointer;
+  caret-color: transparent;
+  margin: 0 5px;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #6b7280;
+  height: 20px;
+  transform: all ease 3s;
+}
+.active {
+  background-color: #86198f;
+}
+
+.toggleButton {
+  position: absolute;
+
+  margin: 2px;
+  width: 15px;
+  border-radius: 50%;
+  height: 15px;
+  background-color: white;
+}
+.active .toggleButton {
+  transform: translateX(20px);
+}
